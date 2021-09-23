@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/home/s4n/Proyectos_Scala/alejandrorico-calnatsuma/src/main/scala/co/s4n/calnat/Main.scala:50:11: missing argument list for method leerint in object Main[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `leerint _` or `leerint(_)` instead of `leerint`.[0m
+[0m[[0m[31merror[0m] [0m[0m  	val a1=leerint[0m
+[0m[[0m[31merror[0m] [0m[0m  	       ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

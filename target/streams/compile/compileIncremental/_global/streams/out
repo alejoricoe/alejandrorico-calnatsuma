@@ -1,0 +1,47 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 8 products, 2 sources, 1 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/co/s4n/calnat/Nat.scala, ${BASE}/src/main/scala/co/s4n/calnat/Main.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/co/s4n/calnat/Main.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/co/s4n/calnat/Main.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(co.s4n.calnat.Main)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(co.s4n.calnat.Main)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/co/s4n/calnat/Main.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: co.s4n.calnat.Main[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/s4n/Proyectos_Scala/alejandrorico-calnatsuma/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.5.7:compile for Scala 2.12.14[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 44b047a8 for Scala compiler version 2.12.14[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/s4n/.sbt/boot/scala-2.12.14/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/s4n/Proyectos_Scala/alejandrorico-calnatsuma/target/scala-2.12/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from co.s4n.calnat.Main...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: co.s4n.calnat.Main[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(co.s4n.calnat.Main)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(co.s4n.calnat.Main,ModifiedNames(changes = UsedName(a1,[Default]))) invalidates 1 classes due to The co.s4n.calnat.Main has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(a1,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(co.s4n.calnat.Main)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.22193763 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
